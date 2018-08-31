@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Vertical Navigation</title>
+    <style>
+        aside{
+            float: left;
+            width: 250px;
+            text-align: center;
+        }
+        aside ul{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        aside ul li a{
+            text-decoration: none;
+            color: white;
+            padding: 15px 25px;
+            display: block;
+            font-size: 20px;
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        li:nth-child(even){
+            background-image: url("img/gallery3.jpeg");
+            border-radius: 50px;
+        }
+
+        li:nth-child(odd){
+            background-image:url("img/gallery2.jpeg") ;
+            border-radius: 50px;
+        }
+
+        aside ul li a:hover{
+            background-color: rgba(46,146,156,0.3);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+
+
+<aside>
+    <ul>
+        <li>
+            <a href="#" class="active">HTML</a>
+        </li>
+        <li>
+            <a href="#">JavaScript</a>
+        </li>
+        <li>
+            <a href="#">CSS</a>
+        </li>
+        <li>
+            <a href="#">TypeScript</a>
+        </li>
+        <li>
+            <a href="#">Bootstrap</a>
+        </li>
+        <li>
+            <a href="#">Angular JS</a>
+        </li>
+    </ul>
+</aside>
+
+
+
+</body>
+</html>
