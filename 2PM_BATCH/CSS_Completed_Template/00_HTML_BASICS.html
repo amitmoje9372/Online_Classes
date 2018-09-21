@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+      input[type='text']{
+          background-color: lightgreen;
+      }
+        input[type='password']{
+            background-color: lightgreen;
+        }
+        input[type='text']:focus{
+            background-color: blue;
+            color: white;
+        }
+        input[type='password']:focus{
+            background-color: red;
+            color: white;
+        }
+        input[type='submit']{
+            background-color: forestgreen;
+            color: white;
+        }
+        input[type='submit']:hover{
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+   <form>
+       <label>User Name</label>
+       <input type="text">
+       <br>
+       <label>Password</label>
+       <input type="password">
+       <br>
+       <input type="submit" value="Submit">
+   </form>
+
+</body>
+</html>
